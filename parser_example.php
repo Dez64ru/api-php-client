@@ -39,7 +39,7 @@ $logger->pushHandler(new \Monolog\Handler\StreamHandler($pathData . "parser.log"
 // или передать параметром в конструктор API клиента new Client(['logger' => $logger]).
 $client->setLogger($logger);
 
-// Создаем объекты сущностей и место хронения данных.
+// Создаем объекты сущностей и место хранения данных.
 
 // Категории.
 // Передадим логгер этому объекту в конструкторе.
